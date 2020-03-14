@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+<body>
+	<div class="main">
+		<div class="window">
+			<div class="math"></div>
+			<div class="result"></div>
+		</div>
+		<div class="buttons">
+			<button onclick="clr()" class="btnn" title="Clear">C</button>
+			<button onclick="operat('%')" class="btnn" title="Remainder">%</button>
+			<button onclick="r_result()" class="btnn" title="Equal">=</button>
+			<button onclick="operat('+')"class="btnn btnn-math" title="Plus">+</button>
+			<button onclick="input('7')" class="btnn" title="Seven">7</button>
+			<button onclick="input('8')" class="btnn" title="Eight">8</button>
+			<button onclick="input('9')" class="btnn" title="Nine">9</button>
+			<button onclick="operat('-')" class="btnn btnn-math" title="Minus">-</button>
+			<button onclick="input('4')" class="btnn" title="Four">4</button>
+			<button onclick="input('5')" class="btnn" title="Five">5</button>
+			<button onclick="input('6')" class="btnn" title="Six">6</button>
+			<button onclick="operat('/')" class="btnn btnn-math" title="Divide">/</button>
+			<button onclick="input('1')" class="btnn" title="One">1</button>
+			<button onclick="input('2')" class="btnn" title="Two">2</button>
+			<button onclick="input('3')" class="btnn" title="Three">3</button>
+			<button onclick="operat('*')" class="btnn btnn-math" title="Multiple">*</button>
+			<button onclick="input('0')" class="btnn btnn-large" title="Zero">0</button>
+		</div>
+	</div>
+</body>
+</html>
